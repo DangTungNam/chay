@@ -19,7 +19,8 @@
     <nav class="taikhoan">
         <ul>
         	<li><a href="hoadon.aspx">Hóa Đơn</a></li>
-            <li><a href="khachang.aspx">Khách hàng</a></li>
+            <li><a href="khachang.aspx">Khách Hàng</a></li>
+            <li><a href="lienhe.aspx">Liên Hệ</a></li>
         </ul>
     </nav>
     <div class="tieng">

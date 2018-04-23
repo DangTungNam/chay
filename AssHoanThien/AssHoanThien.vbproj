@@ -81,6 +81,11 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Nhom6_QuanLyBanHang.mdf" />
+    <Content Include="App_Data\Nhom6_QuanLyBanHang_log.ldf">
+      <DependentUpon>Nhom6_QuanLyBanHang.mdf</DependentUpon>
+    </Content>
+    <Content Include="lienhe.aspx" />
     <Content Include="css\css1.css" />
     <Content Include="css\dangky.css" />
     <Content Include="css\dangnhap.css" />
@@ -144,6 +149,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="lienhe.aspx.vb">
+      <DependentUpon>lienhe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="giohang.aspx.vb">
       <DependentUpon>giohang.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
